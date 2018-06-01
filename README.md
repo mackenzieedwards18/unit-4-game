@@ -1,1 +1,2 @@
 # unit-4-game
+This is a game where you are given four crystals that each have a random value. You do not know the value of each crystal until you click on them. You will be given a random number that you want to match to win the game. Click on the crystals to match that exact value, if you go over the value you lose. If you lose or win the game will restart and the value of the crystals and the random number to match will change.

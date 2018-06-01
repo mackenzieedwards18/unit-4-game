@@ -1,0 +1,63 @@
+body {
+    background: black;
+}
+
+.crystalImg {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+h1 {
+    color: purple;
+    font-size: 50px;
+}
+
+p {
+    color: purple;
+    font-size: 20px;
+
+}
+
+.crystals {
+    height: 150px;
+    width: 140px;
+}
+
+#showRandomNumber {
+    color: purple;
+}
+
+#randomNumber {
+    color: purple;
+    border: solid;
+    border-width: thick;
+    padding-left: 10px;
+    margin: 40px;
+    width: 200px;
+    height: 80px;
+    padding-top: 20px;
+   
+}
+
+#score {
+    border: solid;
+    color: purple;
+    border-width: thick;
+    padding-left: 10px;
+    margin: 40px;
+    width: 200px;
+    height: 130px;
+    padding-top: 20px;
+}
+
+
+#winsLosses {
+    color: purple;
+    border: solid;
+    border-width: thick;
+    padding-left: 10px;
+    margin: 40px;
+    width: 200px;
+    height: 160px;
+    padding-top: 20px;
+}

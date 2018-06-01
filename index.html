@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Crystals Collector</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+</head>
+
+<body>
+    <h1>Crystals Collector!</h1>
+    <br>
+    <p>-At the beginning of each game you will be given a random number.
+        <br>
+        <br> -There are four crystals below that each have a different value that is hidden until you click it.
+        <br> When you click on a crystal you will add an amount of points to your total score.
+        <br>
+        <br> -To win the game you need to match your total score to the random number that is generated.
+        <br>
+        <br> -Each time the game restarts the value of the crystals will change.
+    </p>
+    <br>
+    <br>
+
+    <div class="row" id="imageholder">
+
+    </div>
+    <!-- 
+    <img src="http://www.minerals.net/GemStoneImages/aquamarine-pearl-cut.jpg" class="crystals" id="first">
+    <img src="https://3.imimg.com/data3/RQ/JT/MY-3324731/ruby-stone-500x500.jpg" class="crystals" id="second">
+    <img src="https://p.luckyretail.com/Uploadfile/20160530/002464/002464.jpg" class="crystals" id="third">
+    <img src="https://vignette.wikia.nocookie.net/powerlisting/images/d/d3/2013-10-Blue-Crystal-Abstract.jpg/revision/latest?cb=20160227092023&format=original"
+        class="crystals" id="fourth"> -->
+
+    <div class="row" id="randomNumber">
+        <span id="showRandomNumber"></span>
+    </div>
+
+
+    <h2 id="score">
+        Your total score is:
+        <span id="totalscore"></span>
+    </h2>
+
+
+
+    <h2 id="winsLosses">Wins:
+        <span id="wins"></span>
+        <br>
+        <br> Losses:
+        <span id="losses"></span>
+    </h2>
+
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+
+
+</body>
+
+</html>
